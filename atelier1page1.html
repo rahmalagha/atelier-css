@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="ex.css" />
+        <title>Acceuil</title>
+    </head>
+    <body>
+        <!-- SECTION: Splashscreen -->
+        <div class="splashscreen">
+            <div class="preloader">
+                <span class="preloader__text">Loading</span>
+            </div>
+        </div>
+        <!-- END SECTION: Splashscreen -->
+
+        <!-- SECTION: Intro -->
+        <header class="header">
+            <!-- SECTION: Navigation -->
+            <div id="top" class="navigation">
+                <div class="navigation__wrapper wrapper--large">
+                    <ul class="navigation__list">
+                        <li><a href="Acceuil">Accueil</a>
+                        <a href="Projet ">Projet </a>
+                        <a href="Services">Services</a>
+                        <a href="Inscription">Inscription</a></li>
+                    </ul>
+                    <img src="interface.png" width="100%">
+                </div>
+            </div>
+            <!-- END SECTION: Navigation -->
+        </header>
+        <!-- END SECTION: Intro -->
+        <hr>
+        <section>
+            <h1>Inscription</h1>
+            <section>
+                <form action="traitement.php" method="post">
+                    <label for="First Name">First Name*:</label>
+                    <input type="text" id="prenom" name="prenom" required><br>
+                    <br>
+                    <label for="Last Name">Last Name :</label>
+                    <input type="text" id="nom" name="nom" required><br>
+                    <br>
+                    <label for="adresse">Address :</label>
+                    <input type="text" id="adresse" name="adresse" required style="height: 100px;"><br>
+                    <br>
+                    <label for="Phone Number">Phone Number*:</label>
+                    <input type="tel" id="telephone" name="telephone" required><br>
+                    <br>
+                    <label for="date of birth">Date of Birth :</label>
+                    <input type="date" id="dob" name="dob" required><br>
+                    <br>
+                    <label for="email">Email*:</label>
+                    <input type="email" id="email" name="email" required><br>
+                    <br>
+                    <label for="Password">Password*:</label>
+                    <input type="password" id="motdepasse" name="motdepasse" required><br>
+                    <br>
+                    <label for="confirmermotdepasse">Confirm Password*:</label>
+                    <input type="password" id="confirmermotdepasse" name="confirmermotdepasse" required><br>
+                    <br>
+                    <input type="Submit" value="Submit"> 
+                    <input type="Reset" value="Reset">   
+                </form>
+            </section>
+            <hr>
+        <footer>
+            <p>contact Us </p>
+             <p>&copy; email : <a href="esprit@esprit.tn>"></a>esprit@esprit.tn</p>
+        </footer>
+    </body>
+
+</html>
+
